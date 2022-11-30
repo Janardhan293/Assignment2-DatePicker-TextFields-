@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/janardhan/IntelliJProjects/AppiumTestcases">
+        <classes>
+            <class name="Testcases.TC01PickDateTests">
+                <methods>
+                    <include name="changeDate"/>
+                    <include name="changeTime"/>
+                </methods>
+            </class>
+            <class name="Testcases.TC02SendText">
+                <methods>
+                    <include name="sendTextsToDefault"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 13.255 s <<< FAILURE! - in TestSuite
+launchBrowser(Testcases.TC01PickDateTests)  Time elapsed: 7.229 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy7.proxyClassLookup()
+	at Testcases.TC01PickDateTests.launchBrowser(TC01PickDateTests.java:22)
+Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy7.proxyClassLookup()
+	at Testcases.TC01PickDateTests.launchBrowser(TC01PickDateTests.java:22)
+
+launchBrowser(Testcases.TC02SendText)  Time elapsed: 12.717 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy7.proxyClassLookup()
+	at Testcases.TC02SendText.launchBrowser(TC02SendText.java:23)
+Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy7.proxyClassLookup()
+	at Testcases.TC02SendText.launchBrowser(TC02SendText.java:23)
+

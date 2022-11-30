@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-30T07:01:57Z" name="All Test Suite" finished-at="2022-11-30T07:02:31Z" duration-ms="33786">
+    <groups>
+    </groups>
+    <test started-at="2022-11-30T07:01:57Z" name="/Users/janardhan/IntelliJProjects/AppiumTestcases" finished-at="2022-11-30T07:02:31Z" duration-ms="33786">
+      <class name="Testcases.TC01PickDateTests">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testcases.TC01PickDateTests@2d3379b4]" started-at="2022-11-30T07:02:08Z" name="launchBrowser" finished-at="2022-11-30T07:02:13Z" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="changeDate()[pri:1, instance:Testcases.TC01PickDateTests@2d3379b4]" started-at="2022-11-30T07:02:13Z" name="changeDate" finished-at="2022-11-30T07:02:19Z" duration-ms="6585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDate -->
+        <test-method signature="changeTime()[pri:2, instance:Testcases.TC01PickDateTests@2d3379b4]" started-at="2022-11-30T07:02:19Z" name="changeTime" finished-at="2022-11-30T07:02:30Z" duration-ms="10702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.TC01PickDateTests@2d3379b4]" started-at="2022-11-30T07:02:30Z" name="tearDown" finished-at="2022-11-30T07:02:31Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.TC01PickDateTests -->
+      <class name="Testcases.TC02SendText">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testcases.TC02SendText@30c15d8b]" started-at="2022-11-30T07:01:57Z" name="launchBrowser" finished-at="2022-11-30T07:02:04Z" duration-ms="6591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="sendTextsToDefault()[pri:0, instance:Testcases.TC02SendText@30c15d8b]" started-at="2022-11-30T07:02:04Z" name="sendTextsToDefault" finished-at="2022-11-30T07:02:07Z" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendTextsToDefault -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC02SendText@30c15d8b]" started-at="2022-11-30T07:02:07Z" name="teardown" finished-at="2022-11-30T07:02:08Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TC02SendText -->
+    </test> <!-- /Users/janardhan/IntelliJProjects/AppiumTestcases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
